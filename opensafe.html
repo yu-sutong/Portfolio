@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenSafe - Yu Sutong Wiki</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-chrome">
+      <div class="site-chrome-inner">
+        <div class="wordmark">
+          <div class="wordmark-emblem">SY</div>
+          <div class="wordmark-copy">
+            <strong>Yu Sutong Wiki</strong>
+            <span>Wikipedia-style portfolio and project archive</span>
+          </div>
+        </div>
+        <nav class="chrome-links">
+          <a href="./index.html">Main page</a>
+          <a href="./aura.html">Aura</a>
+          <a href="./reunion.html">ReUnion</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <article class="page">
+        <p class="backlink"><a href="./index.html">&larr; Return to Yu Sutong</a></p>
+        <h1 class="article-title">OpenSafe</h1>
+        <p class="article-subtitle">Zero-trust AI security middleware</p>
+
+        <div class="article-layout">
+          <section class="article-main">
+            <p class="lead">
+              <strong>OpenSafe</strong> is a zero-trust security middleware built during
+              the TinyFish Hackathon to protect autonomous AI agents from indirect prompt
+              injection attacks and malicious hidden payloads while browsing the web.
+            </p>
+
+            <h2>Summary</h2>
+            <p>
+              The project routes agent web requests through an isolated cloud browser,
+              renders dynamic JavaScript safely, and uses OpenAI-powered semantic
+              sanitization to strip malicious instructions from the DOM before returning
+              clean content to the local agent.
+            </p>
+
+            <h2>Purpose</h2>
+            <ul class="section-list">
+              <li>Protect autonomous agents from hostile web content and hidden payloads.</li>
+              <li>Demonstrate a practical defense layer for indirect prompt injection attacks.</li>
+              <li>Combine isolated browsing, middleware inspection, and model-based sanitization in one workflow.</li>
+            </ul>
+
+            <h2>Technology</h2>
+            <ul class="plain-list">
+              <li>Frontend: React, Next.js, Tailwind CSS</li>
+              <li>Backend: Vercel Serverless Functions</li>
+              <li>Security stack: isolated cloud browser (TinyFish), OpenAI-based DOM sanitization</li>
+            </ul>
+
+            <h2>External links</h2>
+            <ul class="plain-list">
+              <li><a href="https://opensafe-ai.vercel.app/" target="_blank" rel="noreferrer">Live application</a></li>
+            </ul>
+
+            <div class="navbox">
+              <div class="navbox-title">Related articles</div>
+              <div class="navbox-links">
+                <a href="./index.html">Yu Sutong</a>
+                <a href="./aura.html">Aura</a>
+                <a href="./reunion.html">ReUnion</a>
+                <a href="./shopspot.html">ShopSpot</a>
+              </div>
+            </div>
+          </section>
+
+          <aside class="article-aside">
+            <table class="infobox project-infobox">
+              <caption>OpenSafe</caption>
+              <tr>
+                <td colspan="2" class="infobox-portrait">
+                  <img class="infobox-image" src="./assets/images/opensafe-live.png" alt="OpenSafe live site screenshot." />
+                  <span class="infobox-image-caption">Live capture of the OpenSafe monitoring interface.</span>
+                </td>
+              </tr>
+              <tr>
+                <th>Type</th>
+                <td>Security middleware project</td>
+              </tr>
+              <tr>
+                <th>Date</th>
+                <td>March 2026</td>
+              </tr>
+              <tr>
+                <th>Built at</th>
+                <td>TinyFish Hackathon</td>
+              </tr>
+              <tr>
+                <th>Built with</th>
+                <td>React, Next.js, Tailwind CSS, Vercel Serverless Functions, OpenAI</td>
+              </tr>
+              <tr>
+                <th>Website</th>
+                <td><a href="https://opensafe-ai.vercel.app/" target="_blank" rel="noreferrer">opensafe-ai.vercel.app</a></td>
+              </tr>
+            </table>
+          </aside>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
